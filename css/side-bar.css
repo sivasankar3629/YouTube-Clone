@@ -1,0 +1,39 @@
+.sidebar {
+  position: fixed;
+  width: 70px;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.sidebar-icons {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar-icons:hover {
+  background-color: rgba(205, 201, 201, 0.586);
+  border-radius: 7px;
+}
+
+.sidebar-icons img {
+  width: 24px;
+}
+
+.sidebar-icons p {
+  font-size: 10px;
+  font-family: Roboto, Arial;
+}
+
+@media (max-width: 790px){
+  .sidebar{
+    opacity: 0;
+  }
+  body {
+    padding-left: 30px;
+  }
+}
